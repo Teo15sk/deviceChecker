@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    background-color: #ed5b2f;
+    color: white;
+    margin-bottom: 2rem;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        background-color: #ed5b2f;
+    }
+
+    &__logo {
+        font-size: 3rem;
+        margin: auto 0.3rem auto 1rem;
+        font-weight: 700;
+        background-color: #ed5b2f;
+    }
+
+    &__title {
+        color: black;
+        font-weight: 600;
+        background-color: #ed5b2f;
+    }
+
+    &__right {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+        background-color: #ed5b2f;
+    }
+
+    &__username {
+        font-size: 0.9rem;
+        background-color: #ed5b2f;
+    }
+
+    &__btn {
+        border: none;
+        border-radius: 0.1rem;
+        background-color: white;
+        margin-left: 1rem;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 200ms ease-in-out;
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

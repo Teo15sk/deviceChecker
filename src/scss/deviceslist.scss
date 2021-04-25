@@ -1,0 +1,33 @@
+.search-filter {
+    &__container {
+        display: flex;
+        margin-left: 1rem;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3rem;
+        margin-bottom: 2rem;
+        label {
+            font-size: 0.7rem;
+            margin-bottom: 0.5rem;
+            color: grey;
+        }
+        input {
+            border: none;
+            outline: none;
+            padding-bottom: 0.2rem;
+            border-bottom: solid 1px lightgrey;
+            background-color: rgb(245, 245, 245);
+            &::placeholder {
+                color: black;
+            }
+        }
+    }
+}
+
+.devices-list__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
