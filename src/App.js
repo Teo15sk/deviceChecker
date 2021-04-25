@@ -14,7 +14,7 @@ function setCurrentUserData(userData) {
 function getToken() {
     const currentUserString = localStorage.getItem("currentUser");
     const userData = JSON.parse(currentUserString);
-    console.log(userData);
+    // console.log(userData);
     return userData?.token;
 }
 
@@ -32,7 +32,7 @@ function App() {
 
     // console.log(currentUser);
     // const token = getToken();
-    console.log(token);
+    // console.log(token);
 
     return (
         <div className="App">

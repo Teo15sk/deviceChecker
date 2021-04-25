@@ -22,7 +22,7 @@ function Device(props) {
         );
 
         const response_data = await response.json();
-        console.log(response_data);
+        // console.log(response_data);
         if (response_data.error) {
             setMessage(response_data.error);
         } else {

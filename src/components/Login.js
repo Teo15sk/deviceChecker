@@ -16,7 +16,7 @@ function Login(props) {
             login: login,
             password: password,
         };
-        console.log(request_data);
+        // console.log(request_data);
         const response = await fetch(
             "https://js-test-api.etnetera.cz/api/v1/login",
             {
@@ -30,7 +30,7 @@ function Login(props) {
         );
 
         const response_data = await response.json();
-        console.log(response_data);
+        // console.log(response_data);
         if (response_data.error) {
             setMessage(response_data.error);
         } else {
